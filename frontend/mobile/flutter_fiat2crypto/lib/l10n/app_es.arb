@@ -1,0 +1,7 @@
+{
+  "@@locale": "es",
+  "hello": "Hola",
+  "@hello": {},
+  "greetUser": "¡Bienvenido, {username}!",
+  "@greetUser": {}
+}
