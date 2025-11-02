@@ -1,0 +1,59 @@
+# Flutter and Dart
+.dart_tool/
+.packages
+.buildlog/
+.build/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+pubspec.lock
+
+# Flutter environment and plugin files
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# macOS
+.DS_Store
+
+# Secrets and Environment files
+.env
+.env.*
+google-services.json
+GoogleService-Info.plist
+
+# Android
+android/.gradle/
+android/app/build/
+android/key.properties
+android/local.properties
+android/app/google-services.json
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner/GoogleService-Info.plist
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+
+# Documentation
+doc/api/
