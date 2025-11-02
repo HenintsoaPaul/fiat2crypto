@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fiat2crypto/features/home/home_view.dart';
 import 'package:flutter_fiat2crypto/l10n/app_localizations.dart';
 import 'package:flutter_fiat2crypto/l10n/locale_provider.dart';
+import 'package:flutter_fiat2crypto/routes/router.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
@@ -14,10 +14,11 @@ class MainApp extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final router = ref.watch(goRouterProvider);
     final locale = ref.watch(localeProvider);
 
-    return MaterialApp(
-      home: HomeView(),
+    return MaterialApp.router(
+      routerConfig: router,
       localizationsDelegates: [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
